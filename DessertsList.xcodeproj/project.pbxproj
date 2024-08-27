@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		874ABC1D2C7D60B200A4CC5B /* DessertsListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC1C2C7D60B200A4CC5B /* DessertsListApp.swift */; };
-		874ABC1F2C7D60B200A4CC5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC1E2C7D60B200A4CC5B /* ContentView.swift */; };
+		874ABC1F2C7D60B200A4CC5B /* DessertListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC1E2C7D60B200A4CC5B /* DessertListView.swift */; };
 		874ABC212C7D60B300A4CC5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874ABC202C7D60B300A4CC5B /* Assets.xcassets */; };
 		874ABC242C7D60B300A4CC5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874ABC232C7D60B300A4CC5B /* Preview Assets.xcassets */; };
 		874ABC2E2C7D60B400A4CC5B /* DessertsListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC2D2C7D60B400A4CC5B /* DessertsListTests.swift */; };
 		874ABC382C7D60B400A4CC5B /* DessertsListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC372C7D60B400A4CC5B /* DessertsListUITests.swift */; };
 		874ABC3A2C7D60B400A4CC5B /* DessertsListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC392C7D60B400A4CC5B /* DessertsListUITestsLaunchTests.swift */; };
+		874ABC472C7D612D00A4CC5B /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC462C7D612D00A4CC5B /* Meal.swift */; };
+		874ABC4B2C7D6F9F00A4CC5B /* DessertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC4A2C7D6F9F00A4CC5B /* DessertDetailView.swift */; };
+		874ABC4D2C7D795A00A4CC5B /* DessertHelperViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC4C2C7D795A00A4CC5B /* DessertHelperViews.swift */; };
+		874ABC4F2C7D7FB000A4CC5B /* DessertListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC4E2C7D7FB000A4CC5B /* DessertListViewModel.swift */; };
+		874ABC512C7D83A800A4CC5B /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874ABC502C7D83A800A4CC5B /* CacheAsyncImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		874ABC192C7D60B200A4CC5B /* DessertsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DessertsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		874ABC1C2C7D60B200A4CC5B /* DessertsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsListApp.swift; sourceTree = "<group>"; };
-		874ABC1E2C7D60B200A4CC5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		874ABC1E2C7D60B200A4CC5B /* DessertListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListView.swift; sourceTree = "<group>"; };
 		874ABC202C7D60B300A4CC5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		874ABC232C7D60B300A4CC5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		874ABC292C7D60B400A4CC5B /* DessertsListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DessertsListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		874ABC332C7D60B400A4CC5B /* DessertsListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DessertsListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		874ABC372C7D60B400A4CC5B /* DessertsListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsListUITests.swift; sourceTree = "<group>"; };
 		874ABC392C7D60B400A4CC5B /* DessertsListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertsListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		874ABC462C7D612D00A4CC5B /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		874ABC4A2C7D6F9F00A4CC5B /* DessertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailView.swift; sourceTree = "<group>"; };
+		874ABC4C2C7D795A00A4CC5B /* DessertHelperViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertHelperViews.swift; sourceTree = "<group>"; };
+		874ABC4E2C7D7FB000A4CC5B /* DessertListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListViewModel.swift; sourceTree = "<group>"; };
+		874ABC502C7D83A800A4CC5B /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				874ABC1C2C7D60B200A4CC5B /* DessertsListApp.swift */,
-				874ABC1E2C7D60B200A4CC5B /* ContentView.swift */,
+				874ABC542C7D83DC00A4CC5B /* Views */,
+				874ABC532C7D83D200A4CC5B /* Helpers */,
+				874ABC522C7D83C500A4CC5B /* Types */,
 				874ABC202C7D60B300A4CC5B /* Assets.xcassets */,
 				874ABC222C7D60B300A4CC5B /* Preview Content */,
 			);
@@ -125,6 +137,33 @@
 				874ABC392C7D60B400A4CC5B /* DessertsListUITestsLaunchTests.swift */,
 			);
 			path = DessertsListUITests;
+			sourceTree = "<group>";
+		};
+		874ABC522C7D83C500A4CC5B /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				874ABC462C7D612D00A4CC5B /* Meal.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		874ABC532C7D83D200A4CC5B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				874ABC4C2C7D795A00A4CC5B /* DessertHelperViews.swift */,
+				874ABC502C7D83A800A4CC5B /* CacheAsyncImage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		874ABC542C7D83DC00A4CC5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				874ABC1E2C7D60B200A4CC5B /* DessertListView.swift */,
+				874ABC4E2C7D7FB000A4CC5B /* DessertListViewModel.swift */,
+				874ABC4A2C7D6F9F00A4CC5B /* DessertDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874ABC1F2C7D60B200A4CC5B /* ContentView.swift in Sources */,
+				874ABC1F2C7D60B200A4CC5B /* DessertListView.swift in Sources */,
+				874ABC4F2C7D7FB000A4CC5B /* DessertListViewModel.swift in Sources */,
+				874ABC4D2C7D795A00A4CC5B /* DessertHelperViews.swift in Sources */,
+				874ABC472C7D612D00A4CC5B /* Meal.swift in Sources */,
+				874ABC4B2C7D6F9F00A4CC5B /* DessertDetailView.swift in Sources */,
+				874ABC512C7D83A800A4CC5B /* CacheAsyncImage.swift in Sources */,
 				874ABC1D2C7D60B200A4CC5B /* DessertsListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +474,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +504,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
