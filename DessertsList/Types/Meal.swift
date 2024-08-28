@@ -149,7 +149,6 @@ extension Meal {
         strArea = try container.decodeIfPresent(String.self, forKey: .strArea)
         strInstructions = try container.decodeIfPresent(String.self, forKey: .strInstructions)
         strMealThumb = try container.decodeIfPresent(String.self, forKey: .strMealThumb)
-//        strTags = try container.decodeIfPresent(String.self, forKey: .strTags)
         
         if let tags = try container.decodeIfPresent(String.self, forKey: .strTags) {
             strTags = tags.components(separatedBy: .init(charactersIn: ","))
